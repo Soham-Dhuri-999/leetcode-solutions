@@ -31,7 +31,6 @@ class Solution:
                 
             max_count = max(max_count,seen[s[right]])
             if (window - max_count) > k:
-                
                 seen[s[left]] -= 1
                 left += 1
                 
